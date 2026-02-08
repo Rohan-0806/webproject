@@ -108,29 +108,21 @@ body {
 /* Dropdown */
 .dropdown {
     position: relative;
+    padding-bottom: 160px;
 }
 
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 100%;             
+    top: 100%;
     background: white;
     color: black;
     list-style: none;
     padding: 10px;
     width: 150px;
-    margin-top: -2px;       
+    margin-top: -2px;
 }
 
-.dropdown-menu li {
-    padding: 5px;
-}
-
-.dropdown-menu li:hover {
-    background: #eee;
-}
-
-/* keep dropdown open */
 .dropdown:hover .dropdown-menu,
 .dropdown-menu:hover {
     display: block;
