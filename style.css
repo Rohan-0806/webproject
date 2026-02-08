@@ -1,0 +1,130 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+.header a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+
+.card {
+    background: #f2f2f2;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    background: #eaeaea;
+    padding: 20px;
+}
+
+.info div {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.banner {
+    position: relative;
+}
+
+.dots {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.dots span {
+    height: 12px;
+    width: 12px;
+    background: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.search {
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav li {
+    position: relative;
+    cursor: pointer;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 25px;
+    background: white;
+    color: black;
+    list-style: none;
+    padding: 10px;
+    width: 150px;
+}
+
+.dropdown-menu li {
+    padding: 5px;
+}
+
+.dropdown-menu li:hover {
+    background: #eee;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
