@@ -92,6 +92,7 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin-left: auto;
 }
 
 .nav li {
@@ -105,15 +106,20 @@ body {
 }
 
 /* Dropdown */
+.dropdown {
+    position: relative;
+}
+
 .dropdown-menu {
     display: none;
     position: absolute;
-    top: 25px;
+    top: 100%;             
     background: white;
     color: black;
     list-style: none;
     padding: 10px;
     width: 150px;
+    margin-top: -2px;       
 }
 
 .dropdown-menu li {
@@ -124,7 +130,8 @@ body {
     background: #eee;
 }
 
-/* Show dropdown on hover */
-.dropdown:hover .dropdown-menu {
+/* keep dropdown open */
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
     display: block;
 }
