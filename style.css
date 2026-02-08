@@ -125,3 +125,6 @@ body {
     z-index: 2000;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
