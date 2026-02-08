@@ -108,7 +108,15 @@ body {
 /* Dropdown */
 .dropdown {
     position: relative;
-    padding-bottom: 160px;
+}
+
+.dropdown::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    height: 220px;
 }
 
 .dropdown-menu {
@@ -120,10 +128,8 @@ body {
     list-style: none;
     padding: 10px;
     width: 150px;
-    margin-top: -2px;
 }
 
-.dropdown:hover .dropdown-menu,
-.dropdown-menu:hover {
+.dropdown:hover .dropdown-menu {
     display: block;
 }
