@@ -118,6 +118,7 @@ body {
 .header {
     position: relative;
     z-index: 1000;
+    align-items: center; 
 }
 
 /* nav layout */
