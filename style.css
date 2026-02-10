@@ -161,6 +161,6 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-.dropdown-menu a {
+.nav .dropdown-menu a {
     color: black;
 }
