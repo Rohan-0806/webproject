@@ -15,9 +15,7 @@ body {
 }
 
 .header a {
-    color: white;
     margin-right: 15px;
-    text-decoration: none;
 }
 
 .banner img {
@@ -163,4 +161,10 @@ body {
 }
 .nav .dropdown-menu a {
     color: black;
+}
+.dropdown-menu a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
 }
