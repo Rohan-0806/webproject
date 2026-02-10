@@ -107,6 +107,12 @@ body {
     text-decoration: none;
 }
 
+.nav > li > a {
+    display: block;
+    padding: 5px 0;
+    line-height: 1;
+}
+
 /* Dropdown */
 /* header must be above banner */
 .header {
@@ -127,12 +133,6 @@ body {
 }
 
 /* dropdown trigger */
-.dropdown > a {
-    display: block;
-    padding: 5px 0;
-    color: white;
-    text-decoration: none;
-}
 
 /* dropdown menu */
 .dropdown-menu {
