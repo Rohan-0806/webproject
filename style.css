@@ -161,3 +161,6 @@ body {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+.dropdown-menu a {
+    color: black;
+}
